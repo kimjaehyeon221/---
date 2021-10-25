@@ -1,0 +1,10 @@
+<header>
+    <div>
+        <button>클릭</button>
+    </div>
+</header>
+<script>
+    document.querySelector('div').addEventListener('click', () => {
+        console.log('hello, event bubbling')
+    });
+</script>
